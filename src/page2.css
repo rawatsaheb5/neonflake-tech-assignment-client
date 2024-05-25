@@ -1,0 +1,39 @@
+/* Page2.css */
+
+.video-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .video-item {
+    cursor: pointer;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    background-color: #fff;
+    width: 200px;
+    box-sizing: border-box;
+  }
+  
+  .video-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .video-thumbnail {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .video-title {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+  }
+  
